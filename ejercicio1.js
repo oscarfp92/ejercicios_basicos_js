@@ -1,5 +1,5 @@
 let miSuperheroeFavorito="Hulk"
-let numeroFavorito="50"
+let numeroFavorito=50
 let altura=5
 let longitud=10
 let suma=(altura+longitud)
