@@ -1,8 +1,20 @@
-let miSuperheroeFavorito="Hulk"
-let numeroFavorito=50
-let altura=5
-let longitud=10
-let suma=(altura+longitud)
-console.log (miSuperheroeFavorito)
-console.log (numeroFavorito)
-console.log (suma)
+//Define tu superhéroe favorito
+let miSuperheroeFavorito = "Hulk"
+
+//Define un número
+let numeroFavorito = 50
+
+// Define las dimensiones
+let altura = 5
+let longitud = 10
+
+//Calcula la suma
+let suma = (altura + longitud)
+
+//Imprime los resultados
+console.log (
+  miSuperheroeFavorito, 
+  numeroFavorito, 
+  altura, 
+  longitud, 
+  suma)
