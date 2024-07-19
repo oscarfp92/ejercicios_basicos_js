@@ -29,5 +29,5 @@ const nave2 = {nombre: "Halcón Milenario", precioBase: 70000, precioFinal: 8000
 nave1.precioFinal = precioBaseGlobal + nave1.precioBase;
 nave2.precioFinal = precioBaseGlobal + nave2.precioBase;
 
-console.log (nave1, nave2)
+console.log (nave1, nave2);
 
