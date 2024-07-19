@@ -1,17 +1,17 @@
-//Define tu superhéroe favorito
+//1. Define tu superhéroe favorito
 let miSuperheroeFavorito = "Hulk"
 
-//Define un número
+//2. Define un número
 let numeroFavorito = 50
 
-// Define las dimensiones
+//3.  Define las dimensiones
 let altura = 5
 let longitud = 10
 
-//Calcula la suma
+//4. Calcula la suma
 let suma = (altura + longitud)
 
-//Imprime los resultados
+//5. Imprime los resultados
 console.log (
   miSuperheroeFavorito, 
   numeroFavorito, 
