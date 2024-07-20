@@ -1,5 +1,7 @@
-function greaterNumber(numberOne, numberTwo){
-  return Math.max(numberOne, numberTwo)
+function greaterNumber (numberOne, numberTwo) {
+  if (numberOne > numberTwo) {
+    console.log (numberOne)
+  } else {
+    console.log (numberTwo)
+  }
 }
-let result= mayor(numberOne, numberTwo)
-console.log(result)
