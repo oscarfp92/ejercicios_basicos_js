@@ -1,11 +1,10 @@
 const numbers = [1, 2, 3, 5, 45, 37, 58];
 
 function sumNumbers(numberList) {
-let result=0
-for(let i = 0; i < numberList.length; i++){
-  result += numberList[i]
+  let suma = 0;
+  for (i = 0; i < numbers.length; i++) {
+    suma += numbers[i]; 
+  }
+  return suma;
 }
-return result}
-
-result=sumNumbers(numbers)
-console.log(result)
+console.log (sumNumbers(numbers));
