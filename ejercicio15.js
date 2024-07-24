@@ -1,31 +1,9 @@
-const words = [
-  'code',
-  'repeat',
-  'eat',
-  'sleep',
-  'code',
-  'enjoy',
-  'sleep',
-  'code',
-  'enjoy',
-  'sleep',
-  'code'
-];
+// Haz un bucle y muestra por consola todos aquellos valores del array que incluyan la palabra "camiseta". Usa la función .includes de javascript.
 
-function repeatCounter(list) {
-  const counts = {}; // Objeto para almacenar los conteos de palabras
+const products = ['Camiseta de Metallica', 'Pantalón vaquero', 'Gorra de beisbol', 'Camiseta de Basket', 'Cinturón de Orión', 'AC/DC Camiseta'];
 
-  for (let i = 0; i < list.length; i++) {
-    const word = list[i];
-    if (counts[word]) { // Si la palabra ya está en el objeto, incrementamos el contador
-      counts[word]++;
-    } else { // Si la palabra no está en el objeto, la añadimos con un contador de 1
-      counts[word] = 1;
-    }
+for (i = 0; i < products.length; i++) {
+  if (products[i].includes('Camiseta')) {
+    console.log (products[i]);
   }
-
-  return counts; // Devolvemos el objeto con los conteos de palabras
 }
-
-// Prueba de la función
-console.log(repeatCounter(words));
