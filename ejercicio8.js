@@ -11,7 +11,7 @@ function findLongestWord(stringlist) {
     maxLength = avengers[i].length;
   }
 }
-    longestWord = avengers.find(function(word) {
+    longestWord = avengers.find (function(word) {
     return word.length === maxLength;
 });
 
