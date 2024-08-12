@@ -1,4 +1,4 @@
-/*Usa un for para reemplazar todas las comidas que no sean veganas con las frutas del array de frutas. Recuerda no usar frutas duplicadas. Finalmente imprime el array resultante.*/
+/* Usa un for para reemplazar todas las comidas que no sean veganas con las frutas del array de frutas. Recuerda no usar frutas duplicadas. Finalmente imprime el array resultante. */
 
 const fruits = ["Strawberry", "Banana", "Orange", "Apple"];
 
@@ -13,11 +13,9 @@ const foodSchedule = [
 
 let fruitIndex = 0;
 for (i = 0; i < foodSchedule.length; i++) {
-  if (foodSchedule[i].isVegan === false) {
-    if (fruitIndex < fruits.length) {
+  if (!foodSchedule[i].isVegan) {
       foodSchedule[i].name = fruits[fruitIndex];
       fruitIndex++;
-    }
   }
 }
-console.log (foodSchedule[i].name);
+console.log (foodSchedule);

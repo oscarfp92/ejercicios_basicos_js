@@ -1,4 +1,5 @@
-//Contador de repeticiones.
+//Crea una función que nos devuelva el número de veces que se repite cada una de las palabras que lo conforma.
+
 const words = [
   'code',
   'repeat',
@@ -12,15 +13,17 @@ const words = [
   'sleep',
   'code'
 ];
+
 function repeatCounter(list) {
   const counts = {};
-for (i = 0; i< words.length; i++) {
+  for (i = 0; i< words.length; i++) {
   let word = words[i];
   if (counts[word]) {
     counts [word]++;
   } else {
     counts [word] = 1;
   }
-} return counts
+} return counts;
 }
-console.log (repeatCounter(words))
+
+console.log (repeatCounter(words));

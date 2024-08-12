@@ -1,4 +1,4 @@
-/* Mixed for...of e includes: Usa un bucle for...of para recorrer todos los juguetes y elimina los que incluyan la palabra gato (también podéis crear uno nuevo con solo los que NO incluyan esa palabra). Recuerda usar la función .includes() para comprobar la palabra.*/
+/* Usa un bucle for...of para recorrer todos los juguetes y elimina los que incluyan la palabra gato (también podéis crear uno nuevo con solo los que NO incluyan esa palabra). Recuerda usar la función .includes() para comprobar la palabra.*/
 
 const toys = [
   {id: 5, name: 'Transformers'}, 
@@ -16,4 +16,5 @@ for (const toy of toys) {
     toysWithoutCat.push(toy);
   }
 }
+
 console.log (toysWithoutCat);

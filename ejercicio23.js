@@ -1,4 +1,4 @@
-// Usa un bucle para crear 3 arrays de películas filtrados por categorías. Película pequeña -> menos de 100 minutos, película mediana -> más de 100 minutos y menos de 200 y película grande -> más de 200 minutos. Imprime cada array por consola.
+/* Usa un bucle para crear 3 arrays de películas filtrados por categorías. Película pequeña -> menos de 100 minutos, película mediana -> más de 100 minutos y menos de 200 y película grande -> más de 200 minutos. Imprime cada array por consola. */
 
 const movies = [
   { name: "Titan A.E.", durationInMinutes: 130 },
